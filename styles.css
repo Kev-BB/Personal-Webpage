@@ -1,0 +1,810 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=REM&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Pacifico&family=REM&display=swap");
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header  */
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  line-height: 1.15;
+  background-color: #e7ecef;
+}
+
+h2{
+  font-weight: bold;
+}
+
+/* Header  */
+
+.navbar-brand {
+  height: 200px;
+}
+
+.container {
+  height: 70px;
+  --bs-gutter-x: 10px !important;
+}
+
+.nav-item {
+  margin-right: 10px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #272932;
+  font-size: large;
+  font-weight: 700;
+}
+
+.nav-link:hover {
+  color: #d8a47f;
+  text-decoration-thickness: 1.5px;
+}
+
+.navbar{
+  transition: all 0.5s;
+}
+
+.navbar-scrolled{
+  background-color: #f05d5e;
+  height: 65px;
+}
+
+.navbar-toggler{
+  color: #272932;
+  background-color: #d8a47f;
+  outline: solid 2px #272932;
+}
+
+.navContainer{
+  height: 60px;
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+.offcanvas-header .btn-close{
+  margin-right: 10px;
+}
+
+
+/* Call To Action */
+.cta {
+  position: relative;
+  height: 100vh;
+}
+path {
+  transform-origin: 50% 0%;
+}
+.background--custom {
+  background-color: #eff3f5;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+@keyframes path0 {
+  0% {
+    transform: rotate(-60deg);
+  }
+  100% {
+    transform: rotate(60deg);
+  }
+}
+@keyframes path1 {
+  0% {
+    transform: rotate(-30deg);
+  }
+  100% {
+    transform: rotate(30deg);
+  }
+}
+@keyframes path2 {
+  0% {
+    transform: rotate(40deg);
+  }
+  100% {
+    transform: rotate(-40deg);
+  }
+}
+@keyframes path3 {
+  0% {
+    transform: rotate(40deg);
+  }
+  100% {
+    transform: rotate(-40deg);
+  }
+}
+
+.cta h1 {
+  font-weight: bold;
+  font-size: 72px;
+  color: #272932;
+  font-family: "Pacifico", cursive;
+  text-shadow: #e7ecef 5px 5px;
+}
+
+.ctaContainer {
+  height: 100vh;
+  gap: 25px;
+}
+
+.illustratedMe {
+  z-index: 1;
+  height: 400px;
+  background-color: #e7ecef;
+  border-radius: 63% 37% 63% 37% / 46% 40% 60% 54%;
+  box-shadow: 0 -5px 0 10px #272932;
+}
+
+/* About Me  */
+.abt-me {
+  margin-top: 50px;
+  height: 550px;
+  text-align: center;
+}
+
+.abt-container p {
+  width: 35%;
+  font-size: 24px;
+}
+
+
+.developer {
+  height: 500px;
+}
+
+/* Services */
+.services {
+  height: 500px;
+  background-color: #eff3f5;
+}
+
+.services h2 {
+  padding: 40px;
+  text-align: center;
+}
+
+
+.col-md-4 {
+  background-color: #d8a47f;
+  outline: solid 5px #272932;
+  height: 250px;
+  width: 400px;
+  text-align: center;
+  padding-top: 15px; 
+}
+
+.col-md-4:hover{
+  background-color: #272932;
+  color: #d8a47f;
+  outline: solid 5px #d8a47f;
+}
+
+.col-md-4 h3 {
+  color: #f05d5e;
+}
+
+#codeBlock {
+  font-size: 40px;
+  color: #0f7173;
+}
+
+/* Projects */
+
+.projects{
+  height: 650px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.post-c{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  gap: 25px;
+}
+
+.post-c-1{
+  gap: 25px;
+}
+
+.post-1{
+  position: relative;
+  height: 200px;
+  width: 350px; 
+  cursor: pointer;
+}
+
+.post-1:hover .post-t1{
+  width: 350px;
+}
+
+.post-1 img{
+  display: block;
+  outline: solid 5px #d8a47f;
+  height: 200px;
+  width: 350px; 
+}
+
+.post-t1{
+  height: 200px;
+  width: 0px; 
+  background-color: #272932;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.7s ease;
+}
+
+.post-t1 h4{
+  color: #d8a47f;
+  font-size: 25px;
+  border: 6px solid #d8a47f;
+  padding: 10px 30px
+}
+
+.post-2{
+  position: relative;
+  height: 200px;
+  width: 350px; 
+  cursor: pointer;
+}
+
+.post-2:hover .post-t2{
+  width: 350px;
+}
+
+.post-2 img{
+  display: block;
+  outline: solid 5px #d8a47f;
+  height: 200px;
+  width: 350px; 
+}
+
+.post-t2{
+  height: 200px;
+  width: 0px; 
+  background-color: #272932;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.7s ease;
+}
+
+.post-t2 h4{
+  color: #d8a47f;
+  font-size: 25px;
+  border: 6px solid #d8a47f;
+  padding: 10px 30px
+}
+
+.post-3{
+  position: relative;
+  height: 200px;
+  width: 350px; 
+  cursor: pointer;
+}
+
+.post-3:hover .post-t3{
+  width: 350px;
+}
+
+.post-3 img{
+  display: block;
+  outline: solid 5px #d8a47f;
+  height: 200px;
+  width: 350px; 
+}
+
+.post-t3{
+  height: 200px;
+  width: 0px; 
+  background-color: #272932;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.7s ease;
+}
+
+.post-t3 h4{
+  color: #d8a47f;
+  font-size: 25px;
+  border: 6px solid #d8a47f;
+  padding: 10px 30px
+}
+
+.post-4{
+  position: relative;
+  height: 200px;
+  width: 350px; 
+  cursor: pointer;
+}
+
+.post-4:hover .post-t4{
+  width: 350px;
+}
+
+.post-4 img{
+  display: block;
+  outline: solid 5px #d8a47f;
+  height: 200px;
+  width: 350px; 
+}
+
+.post-t4{
+  height: 200px;
+  width: 0px; 
+  background-color: #272932;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.7s ease;
+}
+
+.post-t4 h4{
+  color: #d8a47f;
+  font-size: 25px;
+  border: 6px solid #d8a47f;
+  padding: 10px 30px
+}
+
+/* Skills */
+
+.skills{
+  height: 600px;
+  background-color: #eff3f5;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.skills img{
+  height: 500px;
+}
+
+.skills p{
+  border-bottom: solid 2px #d8a47f;
+  padding-bottom: 3px;
+  font-size: 20px;
+}
+
+.skills li{
+  text-align: start;
+  list-style: none;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Blog */
+.Blog{
+  height: 600px;
+}
+
+.Blog h2{
+  text-align: center;
+  padding: 50px;
+}
+
+#blogCards{
+  gap: 25px;
+}
+
+.card-img-top{
+height: 200px;
+}
+
+.btn{
+  background-color: #d8a47f;
+  border-style: none;
+  color: #272932;
+}
+
+.btn:hover{
+  background-color: #272932;
+  color: #d8a47f;
+}
+
+/* Contact*/
+
+.contact{
+  height: 700px;
+  text-align: center;
+  background-color: #eff3f5;
+}
+
+.contact h2{
+  padding-top:50px ;
+}
+
+.contact img{
+  height: 500px;
+}
+
+.contact-text{
+  width: 550px;
+}
+
+.contact-text p{
+  font-size: 20px;
+  font-weight: bold;
+}
+/* Footer  */
+footer{
+height: 150px;
+background-color: #272932;
+}
+
+footer p{
+  color: #d8a47f;
+  font-size: 18px;
+}
+
+footer a{
+  padding-bottom: 15px;
+}
+
+.bi-linkedin{
+  color: #d8a47f;
+  font-size: 30px;
+
+}
+
+/* Media Queries */
+
+@media screen and (min-width:320px) and (max-width: 480px){
+ /* Header */
+
+.navbar-toggler{
+  margin-right: 45px;
+}
+
+  /* CTA  */
+  .ctaContainer{
+    flex-direction: column;
+    padding-top: 25px;
+    gap: 50px;
+  }
+
+  .cta h1{
+    font-size: 48px;
+    text-align: center;
+  }
+
+  .illustratedMe{
+    height: 250px;
+  }
+
+  /* About */
+    .abt-me{
+      height: 400px;
+    }
+
+    .abt-container{
+      flex-direction: column-reverse;
+    }
+
+    .abt-container p{
+      font-size: 14px;
+      width: 100%;
+      padding:0 5px 0 5px ;
+    }
+
+    .developer{
+    height: 250px;
+    }
+
+    /* Services  */
+    .services{
+      height: 600px;
+    }
+    .col-md-4{
+      width: 75%;
+      height: 210px;
+    }
+
+    
+    /* Projects  */
+    .projects{
+      height: 1100px;
+    }
+
+  
+    .post-c{
+      flex-direction: column;
+      padding-top: 30px;
+      gap: 30px;
+
+    }
+
+    .post-c-1{
+      flex-direction: column;
+      gap: 30px;
+   
+    }
+
+    /* Skills  */
+    .skillsContainer{
+      flex-direction: column;
+    }
+
+    .skills img{
+      height: 250px;
+    }
+
+    .skills p{
+      margin-right: 30px;
+    }
+
+    /* Blog  */
+    .Blog{
+      height: 1050px;
+    }
+    #blogCards{
+      flex-direction: column;
+      
+    }
+
+    /* Contact */
+    .contactContainer{
+      flex-direction: column;
+    }
+
+    .contact-text{
+      width: 100%;
+      padding:0 10px 0 10px
+    }
+
+    .contactContainer img{
+      height: 350px;
+    }
+
+    footer{
+      text-align: center;
+      padding:0 10px 0 10px
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
+  /* Header  */
+  .navbar-toggler{
+    margin-right: 15px;
+  }
+  
+    /* CTA  */
+    .ctaContainer{
+      flex-direction: column;
+      padding-top: 25px;
+      gap: 50px;
+    }
+  
+    .cta h1{
+      font-size: 48px;
+      text-align: center;
+    }
+  
+    .illustratedMe{
+      height: 250px;
+    }
+  
+    /* About */
+      .abt-me{
+        height: 450px;
+      }
+  
+      .abt-container{
+        flex-direction: column-reverse;
+      }
+  
+      .abt-container p{
+        font-size: 14px;
+        width: 100%;
+        padding:0 5px 0 5px ;
+      }
+  
+      .developer{
+      height: 300px;
+      }
+  
+      /* Services  */
+      .services{
+        height: 620px;
+      }
+      .col-md-4{
+        width: 75%;
+        height: 210px;
+      }
+  
+      /* Projects  */
+      .projects{
+        height: 1100px;
+      }
+  
+      .post-c{
+        flex-direction: column;
+        padding-top: 30px;
+        gap: 30px;
+  
+      }
+  
+      .post-c-1{
+        flex-direction: column;
+        gap: 30px;
+     
+      }
+  
+      /* Skills  */
+      .skills{
+        height: 650px;
+      }
+      .skillsContainer{
+        flex-direction: column;
+      }
+  
+      .skills img{
+        height: 300px;
+      }
+  
+      .skills p{
+        margin-right: 30px;
+      }
+  
+      /* Blog  */
+      .Blog{
+        height: 1050px;
+      }
+      #blogCards{
+        flex-direction: column;
+        
+      }
+  
+      /* Contact */
+      .contactContainer{
+        flex-direction: column;
+      }
+  
+      .contact-text{
+        width: 100%;
+        padding:0 10px 0 10px
+      }
+  
+      .contactContainer img{
+        height: 350px;
+      }
+  
+      footer{
+        text-align: center;
+        padding:0 10px 0 10px
+      }
+  } 
+
+  @media screen and (min-width:769px) and (max-width:1024px) {
+    
+    /* Header  */
+    .nav-link{
+      margin-right: 5px;
+    }
+   
+    /* CTA  */
+    .cta h1{
+      font-size: 56px;
+      text-align: center;
+    }
+  
+    .illustratedMe{
+      height: 300px;
+      margin-right: 15px;
+    }
+
+    /* About Me  */
+    .abt-me{
+      height: 450px;
+    }
+    .developer{
+      height: 350px;
+    }
+
+    .abt-container p{
+      width: 40%;
+      font-size: 18px;
+      margin-left: 10px;
+    }
+
+    /* Services  */
+    .services{
+      height: 450px;
+    }
+  .col-md-4{
+   width: 350px;
+  }
+
+  /* Skills  */
+  .skills{
+    height: 550px;
+  }
+  .skills img{
+    height: 350px;
+  }
+  .skillsContainer ul{
+    padding-right: 15px;
+  }
+
+  /* Contact  */
+  .contact{
+    height: 600px;
+  }
+
+  .contact img{
+    height: 380px;
+  }
+  .contact p{
+    padding-right: 15px;
+  }
+  }
+
+  @media screen and (min-width:1024px) and (max-width:1200px) {
+     /* CTA  */
+     .cta h1{
+      font-size: 64px;
+      text-align: center;
+    }
+  
+    .illustratedMe{
+      height: 400px;
+      margin-right: 20px;
+    }
+
+      /* About Me  */
+      .abt-me{
+        height: 450px;
+      }
+      .developer{
+        height: 400px;
+      }
+  
+      .abt-container p{
+        width: 40%;
+        font-size: 20px;
+        margin-left: 10px;
+      }
+
+        /* Skills  */
+    .skills{
+    height: 550px;
+    }
+    .skills img{
+    height: 400px;
+    }
+    .skillsContainer ul{
+    padding-right: 15px;
+    }
+
+    /* Contact  */
+    .contact{
+      height: 600px;
+    }
+  .contact img{
+    height: 400px;
+  }
+  .contact p{
+    padding-right: 15px;
+  }
+    
+  }
