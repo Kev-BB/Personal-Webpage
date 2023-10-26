@@ -10,6 +10,8 @@
 /* Header  */
 
 body {
+  max-width: 100%;
+  overflow-x: hidden;
   font-family: "Noto Sans", sans-serif;
   line-height: 1.15;
   background-color: #e7ecef;
