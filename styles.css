@@ -463,11 +463,15 @@ footer a{
   padding-bottom: 15px;
 }
 
-.bi-linkedin{
+.bi{
   color: #d8a47f;
   font-size: 30px;
 
 }
+
+
+
+
 
 /* Media Queries */
 
@@ -475,7 +479,7 @@ footer a{
  /* Header */
 
 .navbar-toggler{
-  margin-right: 45px;
+  margin-right: 15px;
 }
 
   /* CTA  */
