@@ -479,7 +479,7 @@ footer a{
  /* Header */
 
 .navbar-toggler{
-  margin-right: 15px;
+  margin-right: 40px;
 }
 
   /* CTA  */
@@ -591,7 +591,7 @@ footer a{
 @media screen and (min-width:481px) and (max-width:768px) {
   /* Header  */
   .navbar-toggler{
-    margin-right: 15px;
+    margin-right: 40px;
   }
   
     /* CTA  */
