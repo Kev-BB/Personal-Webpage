@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=REM&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Pacifico&family=REM&display=swap");
+
+body{
+    font-family: "Noto Sans", sans-serif;
+}
+
+
+/* header */
+.navbar-brand {
+    height: 200px;
+  }
+  
+  .container {
+    height: 70px;
+    --bs-gutter-x: 10px !important;
+  }
+  
+  .nav-item {
+    margin-right: 10px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #272932;
+    font-size: large;
+    font-weight: 700;
+  }
+  
+  .nav-link:hover {
+    color: #d8a47f;
+    text-decoration-thickness: 1.5px;
+  }
+  
+  .navbar{
+    transition: all 0.5s;
+    background-color: #f05d5e;
+    height: 65px;
+  }
+  
+  
+  .navbar-toggler{
+    color: #272932;
+    background-color: #d8a47f;
+    outline: solid 2px #272932;
+  }
+  
+  .navContainer{
+    height: 60px;
+    padding-bottom: 10px;
+    width: 100%;
+  }
+  
+  .offcanvas-header .btn-close{
+    margin-right: 10px;
+  }
+
+  /* About */
+
+  .about{
+    margin-top: 70px;
+    height: 550px;
+    text-align: center;
+  }
+  img{
+    height: 600px;
+  }
+
+  .about p{
+    width: 50%;
+  font-size: 24px;
+  }
+
+  /* Footer  */
+footer{
+    height: 150px;
+    background-color: #272932;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    }
+    
+    footer p{
+      color: #d8a47f;
+      font-size: 18px;
+    }
+    
+    footer a{
+      padding-bottom: 15px;
+    }
+    
+    .bi{
+      color: #d8a47f;
+      font-size: 30px;
+    
+    }
